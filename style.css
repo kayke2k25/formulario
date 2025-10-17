@@ -1,0 +1,70 @@
+
+
+
+body {
+    font-size: 1.6rem;
+    background: oklch(95% 0.05 100); /* amarelo claro suave */
+    color: oklch(30% 0.1 80); /* amarelo escuro */
+}
+
+header {
+    padding-block: 3rem;
+    text-align: center;
+    color: oklch(40% 0.15 90); /* amarelo médio */
+}
+
+fieldset {
+    padding: 2rem;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+    background: oklch(90% 0.03 100); /* fundo amarelo claro */
+    border: 1px solid oklch(70% 0.1 100);
+}
+
+fieldset div label {
+    display: block;
+    margin-bottom: .5rem;
+    color: oklch(35% 0.12 85); /* tom escuro amarelo */
+}
+
+fieldset div input {
+    padding: 1rem;
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+    color: oklch(30% 0.1 80);
+    background: oklch(98% 0.02 100);
+}
+
+fieldset div input:focus {
+    outline: .2rem solid oklch(60% 0.15 80);
+}
+
+fieldset div input::placeholder {
+    color: oklch(80% 0.02 80);
+}
+
+fieldset div select {
+    padding: 1rem;
+    border-radius: 1rem;
+    outline: none;
+    background: oklch(98% 0.02 100);
+    color: oklch(30% 0.1 80);
+}
+
+button {
+    padding: 1rem;
+    width: 10rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    border: none;
+    background: oklch(50% 0.2 90); /* amarelo vibrante */
+    color: #fff;
+    font-weight: 700;
+}
+
+button:hover {
+    cursor: pointer;
+    background: oklch(60% 0.25 90);
+    transition: background .2s;
+}
